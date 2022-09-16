@@ -1,0 +1,161 @@
+
+h1 {
+    font-weight: bold;
+}
+
+h5 {
+    color: rgb(255, 68, 0);
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+h2 {
+    color: orangered;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.principal {
+    background-color: #a6c0df;
+}
+
+.button {
+    background-color: rgb(35, 153, 35);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.aboutus {
+    background-color: rgb(206, 191, 191);
+    margin-top: 30px;
+}
+
+.aboutp {
+    text-align: justify;
+}
+
+.abouti {
+    border: 5px solid #555;
+    height: 250px;
+    width: 250px;
+}
+
+.contactus {
+    background-color: rgb(206, 191, 191);;
+    margin-top: 30px;
+}
+
+#imgg {
+    border: 5px solid rgb(27, 12, 45);
+}
+
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-top: 10px;
+    background-color: #0c1529;
+    margin-top: 30px;
+}
+
+.marquee {
+    background-color: #0c1529;
+    color: orangered;
+    text-align: center;
+    height: 50px;
+
+    width: 100%;
+    /* float: left; */
+    padding: 7px 0;
+
+    margin: -1px 0 0;
+}
+
+.footer p {
+    text-align: justify;
+}
+
+.footer h4 {
+    /* text-decoration: underline; */
+    font-style: italic;
+    text-align: justify;
+
+}
+
+li {
+    font-style: italic;
+    text-align: justify;
+}
+
+.copyrights {
+    padding: 10px 0;
+    width: auto;
+    height: 60px;
+    background-color: #0c1529;
+    color: white;
+    text-align: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .abc h2 {
+        font-size: 22px;
+    }
+}
+
+/* .ab {
+
+    position: relative;
+    animation: mymove 2s linear;
+    animation-timing-function: linear;
+}
+
+@keyframes mymove {
+    from {
+        left:0px;
+    }
+    to {
+        left: 100px;
+    }
+}
+
+.alll{
+
+    position: relative;
+    animation: mymove1 2s linear;
+    animation-timing-function: linear;
+}
+@keyframes mymove1 {
+    from {
+        right:0px;
+    }
+
+    to {
+        right: 25px;
+    }
+} */
